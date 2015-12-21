@@ -1,0 +1,49 @@
+
+<div ng-controller="angular">
+  <div style="height: 305px">
+    <carousel interval="myInterval">
+      <slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.image}}" style="margin:auto;">
+        <div class="carousel-caption">
+          <h4>Slide {{$index}}</h4>
+          <p>{{slide.text}}</p>
+        </div>
+      </slide>
+    </carousel>
+  </div>
+
+
+<div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Why AngularJS? <span class="text-muted">(part 2)</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="../Angular/data/images/download.svg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="../Angular/data/images/download.svg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Dynamic Views<span class="text-muted"> With declarative HTML approach</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Two Way Data Binding <span class="text-muted">MVC,MVVM and MVW</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="../Angular/data/images/download.svg" alt="Generic placeholder image">
+        </div>
+      </div>
+  </div>

@@ -1,0 +1,27 @@
+.big-image img{ padding:1px; border:1px solid #ccc; margin:0 0 0 5px; }
+ul, li { border:0; padding:0; margin:0; }
+.thumbnails { list-style-type:none; float:left; margin:0 0 0 5px; }
+.thumbnails li { float:left; margin:0 3px; padding:1px; border:1px solid #ccc; cursor:pointer; }
+.thumbnails li:first-child { margin:0; }
+h2 { clear:both; padding:20px 0 0 0; }
+.img-circle{background: #ccc; height: 140px; width: 140px;}
+.text-center{text-align:center;}
+
+@media (min-width: 768px)
+{
+	.featurette-heading {
+		font-size: 50px;
+	}
+}
+.featurette-heading {
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+@media (min-width: 992px)
+{
+	.featurette-heading {
+		margin-top: 120px;
+	}
+}
+.form-signin .form-control{margin-bottom:10px;}

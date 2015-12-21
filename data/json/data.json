@@ -1,0 +1,57 @@
+{
+	"projectTitle" : "Angular",
+		"nav" : [
+			{"name" : "Home", "url" : "#/", "className" : "active"},
+			{"name" : "Projects", "url" : "#/projects", "className" : ""},
+			{"name" : "Services", "url" : "#/services", "className" : ""},
+			{"name" : "Downloads", "url" : "", "className" : "dropdown", "sub" :
+				[
+					{"name" : "AngularJS", "url" : "#/angularJS"}
+				]
+			},
+			{"name" : "Image Gallery", "url" : "#/imagegallery", "className" : ""},
+			{"name" : "Contact", "url" : "#/contact", "className" : ""}
+		],	
+			"navRight":[
+			
+				{"name" : "Default", "url" : "/default", "className" : ""},
+				{"name" : "Static top", "url" : "/static-top", "className" : ""},
+				{"name" : "Fixed top", "url" : "/fixed-top", "className" : ""}
+			],
+			"banner":[
+			
+				{"heading" : "Default","caption" : "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.","btn" : "Get started today","url":""}
+				
+			],
+			
+			"content":[
+				{
+				"services":"Services", "pageName":"services","txt":"Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.", "columnClass":"col-lg-4","id":"0","btnText":"View details","detail":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui."
+				},
+				
+				{
+				"services":"Projects","id":"1","btnText":"View details","txt":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.","columnClass":"col-lg-4", "detail":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui."
+				},
+				
+				{
+				"services":"Downloads","id":"2","btnText":"View details","txt":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.","columnClass":"col-lg-4", "detail":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui."
+				},
+				
+				{
+				"services":"Image Gallery","id":"3","btnText":"View details","txt":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.","columnClass":"col-lg-4", "detail":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui."
+				},
+				{
+				"services":"Contact","id":"4","btnText":"View details","txt":"Please fill all mandatory forms.","columnClass":"col-lg-4", 
+				"feilds":
+					[
+						{"feildname":"Name","type":"text","position":"0"},
+						{"feildname":"Email id","type":"text","position":"1"},
+						{"feildname":"Subject","type":"text","position":"2"},
+						{"feildname":"Message","type":"textarea","position":"3"}
+					]
+				}				
+			]
+			
+
+}
+

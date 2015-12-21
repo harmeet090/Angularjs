@@ -1,0 +1,15 @@
+<div class="jumbotron">
+	  <div>
+        <h1>Gallery</h1>
+        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
+      </div>
+</div>
+
+<div ng-controller="imagegallery">
+<ul class="thumbnails">
+<h1>Thumbnails</h1>
+	<li ng-repeat="pic in pics"><img src="data/images/{{pic.src}}" alt="{{pic.alt}}" title="{{pic.title}}" width="150" ng-click="openPic()" /></li>
+</ul>
+<h2>Preview</h2>
+<div class="big-image"><img src="data/images/{{img.src}}" alt="{{img.alt}}" title="{{img.title}}" /></div>
+</div>

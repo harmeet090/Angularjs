@@ -1,0 +1,20 @@
+<!-- Jumbotron -->
+<div class="jumbotron" ng-controller="bannerCntrl">
+	<div ng-repeat="banner in content">
+		<h1>{{banner.heading}}</h1>
+		<p class="lead">{{banner.caption}}</p>
+		<p><a class="btn btn-lg btn-success" href="#" role="button">{{banner.btn}}</a></p>
+	</div>
+</div>
+
+<!-- Example row of columns -->
+<div ng-controller="mainContent">
+	<div class="row">
+		<div ng-repeat="content in contents" class="{{content.columnClass}}" >
+			  <h2>{{content.services}}</h2>
+			  <p>{{content.txt}}</p>
+			  <p><a class="btn btn-primary" href="#/{{content.id}}" role="button">{{content.btnText}}</a></p>
+		</div>
+
+	</div>
+</div>
